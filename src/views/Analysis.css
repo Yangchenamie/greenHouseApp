@@ -1,0 +1,50 @@
+.analysisBox {
+  padding: 0 11px 50px;
+}
+.analysisBox .analysisItems .item {
+  margin-bottom: 3px;
+}
+.analysisBox .analysisItems .item .item-title {
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 13px;
+}
+.analysisBox .analysisItems .item .item-box {
+  padding: 15px 45px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.analysisBox .analysisItems .item .item-box .item-text {
+  width: 230px;
+  margin-top: 18px;
+  font-size: 14px;
+}
+.analysisBox .analysisItems .item .item-box .liquid-box {
+  width: 100px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.analysisBox .analysisItems .item .item-box .liquid-box p {
+  font-size: 13px;
+}
+.analysisBox .analysisItems .changeBox {
+  margin-top: 17px;
+  height: 260px;
+}
+.adm-dropdown-item-highlight {
+  color: #56b790;
+}
+.adm-dropdown-item-title-text {
+  padding-left: 3px;
+}
+.adm-dropdown-item {
+  border-right: 1px solid #ccc;
+}
+.adm-dropdown-item:last-child {
+  border-right: 0;
+}
+.g2-html-annotation {
+  font-size: 20px !important;
+  color: #fff;
+}

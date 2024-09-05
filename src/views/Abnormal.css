@@ -1,0 +1,80 @@
+.abnormal-box {
+  padding: 0 15px 30px;
+}
+.abnormal-box .slot-box .title {
+  margin-top: 13px;
+}
+.abnormal-box .device-box {
+  display: flex;
+}
+.abnormal-box .device-box .device-text {
+  padding-left: 36px;
+  font-size: 13px;
+}
+.abnormal-box .device-box .device-text .repair {
+  color: #56b790;
+  font-size: 13px;
+}
+.abnormal-box .device-box .device-text p {
+  margin-top: 11px;
+}
+.abnormal-box .device-box .device-charts {
+  width: 240px;
+}
+.abnormal-box .device-box .device-charts p {
+  margin-left: 40px;
+}
+.abnormal-box .data-box ul {
+  padding: 0 21px;
+}
+.abnormal-box .data-box ul li {
+  padding: 15px 22px;
+  border-bottom: 1px solid #a6a6a6;
+  height: 40px;
+  display: flex;
+  font-size: 13px;
+}
+.abnormal-box .data-box ul li:last-child {
+  border-bottom: 0;
+}
+.abnormal-box .data-box ul li img {
+  margin-right: 20px;
+}
+.abnormal-box .analysis-box .adm-jumbo-tabs-header {
+  width: 300px;
+  height: 48px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.abnormal-box .analysis-box .adm-jumbo-tabs-tab-list {
+  padding: 0 20px;
+}
+.abnormal-box .analysis-box .analysis-chart {
+  position: relative;
+}
+.abnormal-box .analysis-box .analysis-chart .analysis_num {
+  font-size: 13px;
+  margin: 15px 0 0 35px;
+}
+.abnormal-box .analysis-box .analysis-chart .analysis_num .num {
+  color: #56b790;
+}
+.abnormal-box .analysis-box .analysis-chart .analysis-title {
+  position: absolute;
+  font-size: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+.abnormal-box .analysis-box .active {
+  background-color: #56b790;
+  border-radius: 5px;
+}
+.abnormal-box .redColor {
+  color: #ff5733;
+}
+.adm-jumbo-tabs-tab-active {
+  color: #fff;
+}

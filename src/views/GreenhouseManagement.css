@@ -1,0 +1,149 @@
+.management-box {
+  padding: 0 14px 30px;
+}
+.management-box .greenhouse_box {
+  padding: 10px 5px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.management-box .greenhouse_box .selectbox {
+  display: flex;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin-right: 8px;
+  min-height: 23px;
+  align-items: center;
+}
+.management-box .greenhouse_box .inputName {
+  width: 242px;
+  border-radius: 16px;
+  margin-left: 15px;
+  min-height: 39px;
+}
+.management-box .greenhouse_box .inputName .t-input {
+  height: 100%;
+  border: none;
+}
+.management-box .greenhouse_box .inputName .t-input input {
+  height: 100%;
+  background-color: #e5e5e5;
+  border-radius: 16px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.management-box .greenhouse_box .selectBox {
+  margin-left: 5px;
+}
+.management-box .greenhouse_box .selectBox .tagBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.management-box .greenhouse_box .adm-selector-item {
+  display: flex;
+  align-items: center;
+}
+.management-box .greenhouse_box .adm-dropdown {
+  height: 43px;
+}
+.management-box .greenhouse_box .active_radio {
+  background-color: #93ccb5;
+}
+.management-box .greenhouse_box .active {
+  background-color: #93ccb5;
+  color: #fff;
+}
+.management-box .planting-box {
+  display: flex;
+  padding: 10px 13px;
+}
+.management-box .planting-box .planting-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.management-box .soil-box {
+  margin-top: 16px;
+}
+.management-box .soil-box .soil-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 14px;
+}
+.management-box .soil-box .soil-title h3 {
+  font-size: 18px;
+}
+.management-box .soil-box .soil-title p {
+  color: #a6a6a6;
+  font-size: 13px;
+}
+.management-box .soil-box .soil-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 7px 15px;
+}
+.management-box .soil-box .soil-items .soil-item {
+  margin-top: 30px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.management-box .soil-box .soil-items .soil-item .soil-item-title {
+  writing-mode: vertical-rl;
+  margin-right: 10px;
+}
+.management-box .soil-box .soil-items .soil-item .stepBox {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 76px;
+}
+.management-box .soil-box .soil-items .soil-item .stepBox .stepItem {
+  display: flex;
+  align-items: center;
+}
+.management-box .soil-box .soil-items .soil-item .stepBox .stepItem p {
+  font-size: 12px;
+  color: #000;
+}
+.adm-selector-item .adm-selector-check-mark-wrapper {
+  border-bottom-color: #56b790;
+  border-right-color: #56b790;
+}
+.adm-dropdown-item-content {
+  width: 89px;
+}
+.t-popup__content {
+  background-color: #93ccb5 !important;
+  color: #fff;
+  z-index: 999;
+}
+.tdesign-demo__select-input-ul-single li {
+  padding: 10px 0;
+}
+.t-select__wrap {
+  width: 90px !important;
+  margin-left: 5px;
+  font-size: 16px !important;
+}
+.t-select__wrap .t-input {
+  border: none !important;
+}
+.t-select__list li {
+  padding: 5px 0;
+}
+.t-input__wrap .t-input {
+  height: 28px;
+  border-radius: 8px;
+}
+.adm-selector-item-active,
+.adm-selector-item-multiple-active {
+  color: #fff;
+  background-color: #93ccb5;
+}
+.adm-stepper-plus {
+  width: 28px;
+  height: 28px;
+}

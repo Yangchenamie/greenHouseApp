@@ -1,0 +1,133 @@
+.FarmBox {
+  .farm-header {
+    position: relative;
+    width: 100%;
+    height: 369px;
+    background-image: url("../assets//images/bg.png");
+    .sunLight {
+      position: absolute;
+      top: -48px;
+      right: 0;
+    }
+    .weather {
+      padding-top: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 36px;
+      .weathyNum {
+        margin-left: 32px;
+        margin-right: 14px;
+      }
+    }
+    .conditionBox {
+      display: flex;
+      padding: 27px 22px 16px;
+      justify-content: space-between;
+      .conditionItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 71px;
+        width: 110px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.16);
+        color: #fff;
+        font-size: 16px;
+      }
+    }
+  }
+  .farm-middle {
+    z-index: 999;
+    padding: 0 11px 130px;
+
+    .realtimeVedio {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -70px;
+      height: 291px;
+      border-radius: 11px;
+      background: #ffffff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+      .realtimeVedioItem {
+        width: 344px;
+        height: 227px;
+        display: flex;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .knowledgeBox {
+      // height: 103px;
+      background: linear-gradient(
+        90deg,
+        rgba(86, 183, 144, 0.22) 0%,
+        rgba(86, 183, 144, 0) 100%
+      );
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+      margin-top: 11px;
+      border-radius: 20px;
+      .text {
+        padding: 15px 14px;
+        font-size: 14px;
+        .dayKnowledge {
+          width: 56px;
+          color: #000;
+          font-weight: 700;
+          margin-right: 14px;
+        }
+        span {
+          line-height: 21px;
+        }
+      }
+    }
+    .consultationBox {
+      margin-top: 18px;
+      line-height: 21px;
+      color: #000;
+      font-size: 16px;
+    }
+  }
+  .maskBox{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    h1{
+      font-size: 24px;
+      margin-bottom: 18px;
+      span{
+        color: rgba(245, 12, 12, 1);
+      }
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+}
+.adm-center-popup-wrap{
+  max-width: none;
+}
+.adm-modal-body{
+  width: 381px;
+  height: 321px;
+  box-shadow: 0px 2px 4px  rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding: 32px 20px 20px;
+}
+.adm-button{
+  height: 46px;
+  border-radius: 25px;
+  background-color: #56B790;
+  color: #fff;
+}
+.adm-space-item{
+  margin-bottom: 15px;
+}

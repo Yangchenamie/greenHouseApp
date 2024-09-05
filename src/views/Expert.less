@@ -1,0 +1,67 @@
+.expert-box {
+  padding: 13px;
+  .slot-box {
+    .title {
+      margin-top: 13px;
+    }
+  }
+  .topBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 13px;
+
+    .name {
+      font-size: 16px;
+      color: #56b790;
+    }
+    .topBox-fl {
+      position: relative;
+      display: flex;
+      flex-flow: column;
+      margin-right: 13px;
+      align-items: center;
+
+      .hot {
+        color: #f50c0c;
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: rotate(24.26deg);
+      }
+    }
+    .topBox-fr {
+      .description {
+        font-size: 16px;
+        color: #000;
+      }
+      .IPAddress {
+        margin-top: 10px;
+        color: #aadbc7;
+        font-size: 13px;
+      }
+    }
+  }
+  .expert-items {
+    margin-top: 30px;
+    .sift {
+      flex: auto;
+    }
+    ul {
+      padding: 0 10px 20px;
+      li {
+        padding: 10px 5px;
+        border-bottom: 1px solid #e5e5e5;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .adm-image {
+    width: 88px;
+    height: 88px;
+    border-radius: 14px;
+  }
+}

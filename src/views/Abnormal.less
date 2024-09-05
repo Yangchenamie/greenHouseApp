@@ -1,0 +1,86 @@
+.abnormal-box {
+  padding: 0 15px 30px;
+  .slot-box {
+    .title {
+      margin-top: 13px;
+    }
+  }
+  .device-box {
+    display: flex;
+    .device-text {
+      padding-left: 36px;
+      font-size: 13px;
+      .repair {
+        color: #56b790;
+        font-size: 13px;
+      }
+      p {
+        margin-top: 11px;
+      }
+    }
+    .device-charts {
+      width: 240px;
+      p {
+        margin-left: 40px;
+      }
+    }
+  }
+  .data-box {
+    ul {
+      padding: 0 21px;
+      li {
+        padding: 15px 22px;
+        border-bottom: 1px solid #a6a6a6;
+        height: 40px;
+        display: flex;
+        font-size: 13px;
+        &:last-child {
+          border-bottom: 0;
+        }
+        img {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .analysis-box {
+    .adm-jumbo-tabs-header {
+      width: 300px;
+      height: 48px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 13px;
+      margin-left: 15px;
+      margin-top: 15px;
+    }
+    .adm-jumbo-tabs-tab-list {
+      padding: 0 20px;
+    }
+    .analysis-chart {
+        position: relative;
+      .analysis_num {
+        font-size: 13px;
+        margin: 15px 0 0 35px;
+        .num{
+            color: #56b790;
+        }
+      }
+      .analysis-title{
+        position: absolute;
+        font-size: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 30px;
+      }
+    }
+    .active {
+      background-color: #56b790;
+      border-radius: 5px;
+    }
+  }
+  .redColor {
+    color: #ff5733;
+  }
+}
+.adm-jumbo-tabs-tab-active {
+  color: #fff;
+}

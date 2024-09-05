@@ -1,0 +1,90 @@
+.task-box {
+  height: 93px;
+  padding: 0 12px;
+}
+.task-box .taskItem {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.task-box .taskItem .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.task-box .taskItem .item .taskName {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.task-box .taskItem .item .task-options {
+  display: flex;
+  font-size: 13px;
+}
+.task-box .taskItem .item .task-options p {
+  padding: 0 10px;
+  border-right: solid 1px #a6a6a6;
+}
+.task-box .taskItem .item .task-options p:last-child {
+  border-right: 0;
+}
+.task-box .taskItem .item .task-options p:first-child {
+  padding-left: 0;
+}
+.task-box .addTask {
+  position: fixed;
+  bottom: 87px;
+  right: 41px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #56b790;
+  font-size: 46px;
+  text-align: center;
+  color: #fff;
+  line-height: 58px;
+}
+.adm-modal-content {
+  padding: 0 30px;
+  font-size: 14px;
+}
+.adm-modal-content .title {
+  margin-top: 37px;
+  font-size: 20px;
+}
+.adm-modal-content .title span {
+  color: #56b790;
+}
+.adm-modal-content p {
+  margin-top: 22px;
+}
+.adm-center-popup-wrap {
+  width: 100% !important;
+  max-width: none;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  transform: translate(0, 56%);
+}
+.adm-center-popup-wrap .adm-modal-body {
+  height: 360px;
+}
+.adm-center-popup-wrap .adm-modal-body {
+  border-radius: 27px;
+}
+.adm-center-popup-wrap .adm-button-primary {
+  background-color: #56b790;
+  border-radius: 19px;
+  border: 0;
+}
+.adm-mask {
+  background: rgba(229, 229, 229, 0.55);
+}
+.changeBtn {
+  background-color: #56b790;
+  height: 49px;
+  text-align: center;
+  line-height: 49px;
+  border-radius: 19px;
+  color: #fff;
+  font-size: 20px;
+}

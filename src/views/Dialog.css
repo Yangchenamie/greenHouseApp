@@ -1,0 +1,27 @@
+.dialog-box .dialog-content {
+  margin-top: 70px;
+}
+.dialog-box .dialog-foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+.dialog-box .dialog-foot .dialog-footer {
+  background-color: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.dialog-box .dialog-foot .dialog-footer .more {
+  display: flex;
+  align-items: center;
+}
+.dialog-box .dialog-foot .dialog-footer .adm-text-area-element {
+  background-color: #fff;
+  border-radius: 10px;
+  padding-left: 8px;
+  font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+}

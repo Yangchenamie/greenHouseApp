@@ -1,0 +1,66 @@
+.task-box {
+  padding: 0 14px;
+}
+.task-box .swiper-box {
+  margin-top: 20px;
+  width: 396px;
+  border-radius: 14px;
+}
+.task-box .swiper-box .adm-swiper-item {
+  width: 100%;
+  position: relative;
+}
+.task-box .swiper-box .adm-swiper-item .adm-image {
+  border-radius: 14px;
+  height: 100%;
+}
+.task-box .swiper-box .adm-swiper-item .desc {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 17px;
+}
+.task-box .swiper-box .adm-swiper-indicator {
+  bottom: 20px;
+  left: auto;
+  right: 0;
+  transform: translateX(-30px);
+}
+.task-box .swiper-box .adm-page-indicator-dot {
+  margin: 0 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.task-box .swiper-box .adm-page-indicator-dot.adm-page-indicator-dot-active {
+  width: 36px;
+  background: #fff;
+}
+.task-box .taskNav {
+  margin-top: 13px;
+  padding: 17px 30px;
+}
+.task-box .taskNav .adm-grid-item {
+  border-bottom: solid 1px #56b790;
+  border-right: solid 1px #56b790;
+}
+.task-box .taskNav .adm-grid-item:last-child,
+.task-box .taskNav .adm-grid-item:nth-child(3) {
+  border-bottom: 0;
+}
+.task-box .taskNav .adm-grid-item:last-child,
+.task-box .taskNav .adm-grid-item:nth-child(2) {
+  border-right: 0;
+}
+.task-box .taskNav .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87px;
+  font-size: 20px;
+}
+.task-box .taskNav .item img {
+  margin-right: 10px;
+}

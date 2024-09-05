@@ -1,0 +1,12 @@
+@import 'assets/reset.min.css';
+html,
+body {
+  height: 100%;
+  background: #fff;
+}
+#root {
+  min-height: 100%;
+  background: #FFF;
+  margin: 0 auto;
+  overflow-x: hidden;
+}

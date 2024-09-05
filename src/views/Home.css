@@ -1,0 +1,79 @@
+.home-box .content {
+  position: relative;
+  height: 615px;
+  background-image: url("../assets/images/bgHome.png");
+}
+.home-box .content .scanning {
+  position: absolute;
+  font-size: 23px;
+  color: #fff;
+  top: 30px;
+  right: 30px;
+}
+.home-box .content .home-middle {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.home-box .content .home-middle .personal {
+  margin-top: 40px;
+}
+.home-box .content .home-middle .personal img {
+  width: 99px;
+  border-radius: 50%;
+}
+.home-box .content .home-middle .personal p {
+  margin-top: 12px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.home-box .content .home-middle .dataBox {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 102px;
+  border-radius: 24px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+.home-box .content .home-middle .dataBox p {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+}
+.home-box .content .home-middle .dataBox .num {
+  margin-bottom: 9px;
+  color: #56b790;
+}
+.home-box .content .home-middle .settingBox {
+  margin-top: 20px;
+  padding: 4px 0;
+  width: 100%;
+  height: 183px;
+  box-shadow: 0px 2px 4px #93ccb5;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+.home-box .content .home-middle .settingBox ul {
+  padding: 0 23px;
+}
+.home-box .content .home-middle .settingBox ul li {
+  display: flex;
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #E5E5E5;
+  font-size: 18px;
+  padding: 0 15px;
+}
+.home-box .content .home-middle .settingBox ul li .antd-mobile-icon {
+  font-size: 20px;
+}
+.home-box .content .home-middle .settingBox ul li:last-child {
+  border-bottom: 0;
+}

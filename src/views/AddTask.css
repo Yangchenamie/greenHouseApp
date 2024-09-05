@@ -1,0 +1,165 @@
+.addTaskItems {
+  padding: 12px 17px 50px;
+}
+.addTaskItems .repeat {
+  display: flex;
+  padding: 12px 24px 23px;
+  justify-content: space-between;
+}
+.addTaskItems .repeat li {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  color: #808080;
+  text-align: center;
+  line-height: 34px;
+  font-size: 16px;
+}
+.addTaskItems .repeat .active-date {
+  background-color: #56b790;
+  color: #fff;
+}
+.addTaskItems .objOptions {
+  padding: 16px 0;
+  margin-top: 13px;
+  border-radius: 14px;
+  box-shadow: 0px 2px 4px #93ccb5;
+}
+.addTaskItems .objOptions .optionsItem {
+  display: flex;
+  align-items: center;
+}
+.addTaskItems .objOptions .objTitle {
+  margin-left: 24px;
+  font-size: 16px;
+}
+.addTaskItems .objOptions button {
+  font-size: 13px;
+  width: 70px;
+  height: 24px;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 4px;
+  color: #808080;
+  margin-left: 25px;
+}
+.addTaskItems .objOptions .active-btn {
+  color: #fff;
+  background-color: #56b790;
+}
+.addTaskItems .objOptions .diyBtn {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 57px;
+}
+.addTaskItems .eventItemsBox ul {
+  padding: 0 14px;
+  margin-left: 24px;
+  border-bottom: 1px solid #e3e5e5;
+}
+.addTaskItems .eventItemsBox ul li {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+.addTaskItems .eventItemsBox ul li img {
+  margin-right: 18px;
+}
+.addTaskItems .eventItemsBox .add {
+  height: 31px;
+  text-align: center;
+  line-height: 31px;
+  color: #a6a6a6;
+  font-size: 13px;
+}
+.addTaskItems .eventItemsBox .adm-form-item-child-inner {
+  justify-content: flex-end;
+}
+.addTaskItems .eventItemsBox .adm-input {
+  width: 120px;
+  box-sizing: border-box;
+}
+.addTaskItems .eventItemsBox .adm-input .adm-input-element {
+  width: 100%;
+  padding-left: 10px;
+}
+.addTaskItems .eventItemsBox .adm-space-wrap {
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  left: 100px;
+}
+.addTaskItems .topOptions ul {
+  padding: 0 13px;
+}
+.addTaskItems .topOptions ul .top-item {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e5e5;
+}
+.addTaskItems .topOptions ul .top-item .item-fl {
+  display: flex;
+  align-items: center;
+}
+.addTaskItems .topOptions ul .top-item .item-fl .itemName {
+  font-size: 14px;
+  color: #000;
+  margin-right: 23px;
+}
+.addTaskItems .topOptions ul .top-item .item-fl p {
+  color: #a6a6a6;
+  font-size: 11px;
+}
+.addTaskItems .eventlOptions .formItem {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.addTaskItems .eventlOptions .formItem img {
+  width: 42px;
+  height: 42px;
+}
+.addTaskItems .eventlOptions .formItem p {
+  width: 60px;
+  line-height: 42px;
+  text-align: center;
+}
+.adm-input {
+  width: 96%;
+  height: 41px;
+  background: #e5e5e5;
+  border-radius: 18px;
+  margin-left: 10px;
+}
+.adm-input .adm-input-element {
+  padding-left: 24px;
+}
+.adm-input .adm-input-clear {
+  font-size: 20px;
+}
+.slot-box .title {
+  margin-top: 13px;
+}
+.adm-switch {
+  margin-left: 30px;
+}
+.adm-form-item-label {
+  line-height: 41px;
+}
+.adm-form-item-child-inner {
+  display: flex;
+}
+.adm-list-item-content-prefix {
+  width: 80px;
+}
+.adm-input-element {
+  width: 200px;
+  min-width: none;
+}
+.adm-mask {
+  background: rgba(0, 0, 0, 0.3) !important;
+}

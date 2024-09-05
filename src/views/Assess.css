@@ -1,0 +1,30 @@
+.assess-box {
+  padding: 13px;
+}
+.assess-box p {
+  font-size: 16px;
+}
+.assess-box .assess-text {
+  background-color: #fff;
+  padding: 13px;
+}
+.assess-box .assess-text .summary {
+  font-size: 26px;
+}
+.assess-box .assess-total {
+  margin-top: 20px;
+}
+.assess-box .assess-total .assess-rate {
+  padding: 13px;
+}
+.assess-box .assess-total .assess-rate .circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 30px solid ;
+  border-color: #30BF78 #30BF78 #30BF78 #E8EDF3;
+}
+.assess-box .assess-item {
+  padding: 13px;
+  text-align: center;
+}
